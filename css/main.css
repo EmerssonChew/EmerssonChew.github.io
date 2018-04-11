@@ -290,6 +290,12 @@ a {
   color: #18BC9C; }
   a:focus, a:hover, a:active {
     color: #128f76; }
+    
+.email {
+  color: white;
+  text-decoration: underline; }
+  a:focus, a:hover, a:active {
+    color: #1a252f; }
 
 .btn {
   border-width: 2px; }
