@@ -1,0 +1,196 @@
+/* Stop page from jumping */
+html {
+  overflow-y: scroll;
+}
+
+/*White body that spans the whole screen height*/
+html, body {
+  height: 100%;
+}
+
+body {
+  min-height: 550px;
+  padding-top: 50px;
+  background-color: #EEEBE9;
+}
+
+.container {
+  background-color: white;
+  padding: 0 20px;
+}
+
+.container-fluid-white {
+  background-color: white;
+  display: block;
+}
+
+.fill {
+    min-height: 100%;
+}
+
+/*Portrait Phones*/
+@media (max-width: 767px) {
+    /*Listing Title - Change Font Size*/
+    #product-listing-title {
+      font-size: 1.17em;
+    }
+
+    /*Hide Summary on Smaller Devices*/
+    .browse-listing-details {
+      display: none;
+    }
+
+    .top-margin-space {
+      margin-top: 10px;
+    }
+
+    /*Search Bar*/
+    .search-bar {
+      width: 290px;
+      margin: 0 auto;
+    }
+}
+
+/*Portrait Phones to Tablets*/
+@media (max-width: 1050px) {
+  /*Navbar - Change where navbar breaks*/
+  .navbar-header {
+      float: none;
+  }
+
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+
+  .navbar-toggle {
+      display: block;
+  }
+
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+      text-align: center;
+  }
+
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+
+  .navbar-collapse.collapse {
+      display: none !important;
+  }
+
+  .navbar-nav {
+      float: none !important;
+      margin-top: 7.5px;
+  }
+
+  .navbar-nav>li {
+      float: none;
+  }
+
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+
+  .collapse.in {
+      display:block !important;
+  }
+}
+
+/*Tablets*/
+@media (max-width: 1199px) {
+  /*Well Style*/
+  .well-1 {
+    margin: 0 -10px 10px;
+  }
+}
+
+/*Tablets and above*/
+@media (min-width: 768px) {
+  /*Listing Tile - Change Font Size*/
+  #product-listing-title {
+    font-size: 2em;
+  }
+}
+
+/*Background Colours*/
+.white-background {
+  background: white;
+}
+
+/*Image - Image size to follow grid size*/
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/*Center Image Horizontally*/
+.center-img-horizontally {
+  display: block;
+  margin: 0 auto;
+}
+
+/*Position Item Vertically*/
+.vertical-parent {
+  position: relative;
+}
+
+.vertical-child {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*Center Item Vertically*/
+.vertical-child-center {
+  position: absolute;
+  height: 10%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/*Center Item Horizontally*/
+.center-item-horizontally {
+  margin: 0 auto;
+  float: none;
+}
+
+/*Bootstrap - Same height grids*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*Well Styles*/
+.well-same-height {
+  height: 96%;
+}
+
+.well-left {
+  margin: 0 -10px 10px -15px;
+}
+
+.well-right {
+  margin: 0 -15px 10px -10px;
+}
+
+.well-2 {
+  margin: 0 -10px 10px;
+}
+
+/*Button Styles*/
+.btn-bottom-margin {
+  margin-bottom: 20px;
+}
+
+.btn-top-margin {
+  margin-top: 10px;
+}

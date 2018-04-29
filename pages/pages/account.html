@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Application Metadata -->
+  <meta charset="utf-8">
+  <title>CARSRUS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="../img/layout/logo-black.png">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- layout.css -->
+  <link rel="stylesheet" href="../css/layout.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <!-- Collasped Hamburger Menu -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- Branding Image -->
+        <a class="navbar-brand" href="../index.html">
+          <span>
+            <img src="../img/layout/logo-white-20px.png" alt="CARSRUS">
+            CARSRUS
+          </span>
+        </a>
+      </div>
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="browse.html">Browse</a></li>
+          <li><a href="sell.html">Sell</a></li>
+          <!-- Search Bar -->
+          <li>
+            <form class="navbar-form navbar-left search-bar">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <div class="input-group-btn">
+                  <button type="submit" class="btn btn-default">
+                    <i class="glyphicon glyphicon-search"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </li>
+        </ul>
+        <!-- Sign up and Login Buttons -->
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="shopping-cart.html"><span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart</a></li>
+          <li><a href="watchlist.html"><span class="fa fa-binoculars"></span> Watchlist</a></li>
+          <li><a href="account.html">Account</a></li>
+          <li><a href="register-login.html">Register / Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Application -->
+  <div class="container fill">
+    <div class="container-fluid-white">
+      <h2>My Account</h2>
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#buying" data-toggle="tab">Buying</a></li>
+        <li><a href="#selling" data-toggle="tab">Selling</a></li>
+        <li><a href="#more-options" data-toggle="tab">More Options</a></li>
+      </ul>
+      <!-- Tabs -->
+      <div class="tab-content">
+        <!-- Buying Tab -->
+        <div id="buying" class="tab-pane fade in active">
+          <h3>Buying</h3>
+          <!-- Watchlist -->
+          <h4>Watchlist</h4>
+          <div class="col-xs-12">
+            <div class="row">
+              <!-- Aston Martin V8 Vantage Coupe 2015 -->
+              <div class="col-xs-6">
+                <a href="product.html">
+                  <div class="well well-same-height well-left">
+                    <div class="row">
+                      <!-- Listing Image -->
+                      <div class="col-xs-12 col-sm-6">
+                        <img src="../img/listings/Aston Martin V8 Vantage Coupe 2015/1.png" alt="Aston Martin V8 Vantage Coupe 2015">
+                      </div>
+                      <!-- Listing Summary -->
+                      <div class="col-xs-12 col-sm-6">
+                        <h4>Aston Martin V8 Vantage Coupe 2015</h4>
+                        <p><b>$159,990</b></p>
+                        <!-- Listing Details -->
+                        <div class="browse-listing-details">
+                          <p>Fuel Type: Petrol</p>
+                          <p>Fuel Economy: 2.5/6 Rating</p>
+                          <p>Transmission: Automatic</p>
+                          <p>Distance Travelled: 4,980km</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <!-- Nissan Primera 2001 -->
+              <div class="col-xs-6">
+                <a href="product.html">
+                  <div class="well well-same-height well-right">
+                    <div class="row">
+                      <!-- Listing Image -->
+                      <div class="col-xs-12 col-sm-6">
+                        <img src="../img/listings/Nissan Primera 2001/1.png" alt="Nissan Primera 2001">
+                      </div>
+                      <!-- Listing Summary -->
+                      <div class="col-xs-12 col-sm-6">
+                        <h4>Nissan Primera 2001</h4>
+                        <p><b>$1,232</b></p>
+                        <!-- Listing Details -->
+                        <div class="browse-listing-details">
+                          <p>Fuel Type: Petrol</p>
+                          <p>Fuel Economy: 4/6 Rating</p>
+                          <p>Transmission: Automatic</p>
+                          <p>Distance Travelled: 146,299km</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <!-- See More Button -->
+              <button class="btn btn-primary btn-block btn-bottom-margin">See More</button>
+            </div>
+          </div>
+          <!-- Items Won -->
+          <h4>Items Won</h4>
+          <div class="col-xs-12">
+            <div class="row">
+              <!-- Aston Martin V8 Vantage Coupe 2015 -->
+              <div class="col-xs-6">
+                <a href="product.html">
+                  <div class="well well-same-height well-left">
+                    <div class="row">
+                      <!-- Listing Image -->
+                      <div class="col-xs-12 col-sm-6">
+                        <img src="../img/listings/Aston Martin V8 Vantage Coupe 2015/1.png" alt="Aston Martin V8 Vantage Coupe 2015">
+                      </div>
+                      <!-- Listing Summary -->
+                      <div class="col-xs-12 col-sm-6">
+                        <h4>Aston Martin V8 Vantage Coupe 2015</h4>
+                        <p><b>$159,990</b></p>
+                        <!-- Listing Details -->
+                        <div class="browse-listing-details">
+                          <p>Fuel Type: Petrol</p>
+                          <p>Fuel Economy: 2.5/6 Rating</p>
+                          <p>Transmission: Automatic</p>
+                          <p>Distance Travelled: 4,980km</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <!-- Nissan Primera 2001 -->
+              <div class="col-xs-6">
+                <a href="product.html">
+                  <div class="well well-same-height well-right">
+                    <div class="row">
+                      <!-- Listing Image -->
+                      <div class="col-xs-12 col-sm-6">
+                        <img src="../img/listings/Nissan Primera 2001/1.png" alt="Nissan Primera 2001">
+                      </div>
+                      <!-- Listing Summary -->
+                      <div class="col-xs-12 col-sm-6">
+                        <h4>Nissan Primera 2001</h4>
+                        <p><b>$1,232</b></p>
+                        <!-- Listing Details -->
+                        <div class="browse-listing-details">
+                          <p>Fuel Type: Petrol</p>
+                          <p>Fuel Economy: 4/6 Rating</p>
+                          <p>Transmission: Automatic</p>
+                          <p>Distance Travelled: 146,299km</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <!-- See More Button -->
+              <button class="btn btn-primary btn-block btn-bottom-margin">See More</button>
+            </div>
+          </div>
+          <!-- Items Lost -->
+          <h4>Items Lost</h4>
+          <div class="col-xs-12">
+            <div class="row">
+              <!-- Aston Martin V8 Vantage Coupe 2015 -->
+              <div class="col-xs-6">
+                <a href="product.html">
+                  <div class="well well-same-height well-left">
+                    <div class="row">
+                      <!-- Listing Image -->
+                      <div class="col-xs-12 col-sm-6">
+                        <img src="../img/listings/Aston Martin V8 Vantage Coupe 2015/1.png" alt="Aston Martin V8 Vantage Coupe 2015">
+                      </div>
+                      <!-- Listing Summary -->
+                      <div class="col-xs-12 col-sm-6">
+                        <h4>Aston Martin V8 Vantage Coupe 2015</h4>
+                        <p><b>$159,990</b></p>
+                        <!-- Listing Details -->
+                        <div class="browse-listing-details">
+                          <p>Fuel Type: Petrol</p>
+                          <p>Fuel Economy: 2.5/6 Rating</p>
+                          <p>Transmission: Automatic</p>
+                          <p>Distance Travelled: 4,980km</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <!-- Nissan Primera 2001 -->
+              <div class="col-xs-6">
+                <a href="product.html">
+                  <div class="well well-same-height well-right">
+                    <div class="row">
+                      <!-- Listing Image -->
+                      <div class="col-xs-12 col-sm-6">
+                        <img src="../img/listings/Nissan Primera 2001/1.png" alt="Nissan Primera 2001">
+                      </div>
+                      <!-- Listing Summary -->
+                      <div class="col-xs-12 col-sm-6">
+                        <h4>Nissan Primera 2001</h4>
+                        <p><b>$1,232</b></p>
+                        <!-- Listing Details -->
+                        <div class="browse-listing-details">
+                          <p>Fuel Type: Petrol</p>
+                          <p>Fuel Economy: 4/6 Rating</p>
+                          <p>Transmission: Automatic</p>
+                          <p>Distance Travelled: 146,299km</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <!-- See More Button -->
+              <button class="btn btn-primary btn-block btn-bottom-margin">See More</button>
+            </div>
+          </div>
+        </div>
+        <!-- Selling Tab -->
+        <div id="selling" class="tab-pane fade">
+          <h3>Selling</h3>
+          <!-- Sold Items -->
+          <h4>Sold Items</h4>
+          <div class="col-xs-12">
+            <div class="row">
+              <!-- Aston Martin V8 Vantage Coupe 2015 -->
+              <div class="col-xs-6">
+                <a href="product.html">
+                  <div class="well well-same-height well-left">
+                    <div class="row">
+                      <!-- Listing Image -->
+                      <div class="col-xs-12 col-sm-6">
+                        <img src="../img/listings/Aston Martin V8 Vantage Coupe 2015/1.png" alt="Aston Martin V8 Vantage Coupe 2015">
+                      </div>
+                      <!-- Listing Summary -->
+                      <div class="col-xs-12 col-sm-6">
+                        <h4>Aston Martin V8 Vantage Coupe 2015</h4>
+                        <p><b>$159,990</b></p>
+                        <!-- Listing Details -->
+                        <div class="browse-listing-details">
+                          <p>Fuel Type: Petrol</p>
+                          <p>Fuel Economy: 2.5/6 Rating</p>
+                          <p>Transmission: Automatic</p>
+                          <p>Distance Travelled: 4,980km</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <!-- Nissan Primera 2001 -->
+              <div class="col-xs-6">
+                <a href="product.html">
+                  <div class="well well-same-height well-right">
+                    <div class="row">
+                      <!-- Listing Image -->
+                      <div class="col-xs-12 col-sm-6">
+                        <img src="../img/listings/Nissan Primera 2001/1.png" alt="Nissan Primera 2001">
+                      </div>
+                      <!-- Listing Summary -->
+                      <div class="col-xs-12 col-sm-6">
+                        <h4>Nissan Primera 2001</h4>
+                        <p><b>$1,232</b></p>
+                        <!-- Listing Details -->
+                        <div class="browse-listing-details">
+                          <p>Fuel Type: Petrol</p>
+                          <p>Fuel Economy: 4/6 Rating</p>
+                          <p>Transmission: Automatic</p>
+                          <p>Distance Travelled: 146,299km</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <!-- See More Button -->
+              <button class="btn btn-primary btn-block btn-bottom-margin">See More</button>
+            </div>
+          </div>
+          <!-- Unsold Items -->
+          <h4>Unsold Items</h4>
+          <div class="col-xs-12">
+            <div class="row">
+              <!-- Aston Martin V8 Vantage Coupe 2015 -->
+              <div class="col-xs-6">
+                <a href="product.html">
+                  <div class="well well-same-height well-left">
+                    <div class="row">
+                      <!-- Listing Image -->
+                      <div class="col-xs-12 col-sm-6">
+                        <img src="../img/listings/Aston Martin V8 Vantage Coupe 2015/1.png" alt="Aston Martin V8 Vantage Coupe 2015">
+                      </div>
+                      <!-- Listing Summary -->
+                      <div class="col-xs-12 col-sm-6">
+                        <h4>Aston Martin V8 Vantage Coupe 2015</h4>
+                        <p><b>$159,990</b></p>
+                        <!-- Listing Details -->
+                        <div class="browse-listing-details">
+                          <p>Fuel Type: Petrol</p>
+                          <p>Fuel Economy: 2.5/6 Rating</p>
+                          <p>Transmission: Automatic</p>
+                          <p>Distance Travelled: 4,980km</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <!-- Nissan Primera 2001 -->
+              <div class="col-xs-6">
+                <a href="product.html">
+                  <div class="well well-same-height well-right">
+                    <div class="row">
+                      <!-- Listing Image -->
+                      <div class="col-xs-12 col-sm-6">
+                        <img src="../img/listings/Nissan Primera 2001/1.png" alt="Nissan Primera 2001">
+                      </div>
+                      <!-- Listing Summary -->
+                      <div class="col-xs-12 col-sm-6">
+                        <h4>Nissan Primera 2001</h4>
+                        <p><b>$1,232</b></p>
+                        <!-- Listing Details -->
+                        <div class="browse-listing-details">
+                          <p>Fuel Type: Petrol</p>
+                          <p>Fuel Economy: 4/6 Rating</p>
+                          <p>Transmission: Automatic</p>
+                          <p>Distance Travelled: 146,299km</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <!-- See More Button -->
+              <button class="btn btn-primary btn-block btn-bottom-margin">See More</button>
+            </div>
+          </div>
+        </div>
+        <!-- More Options -->
+        <div id="more-options" class="tab-pane fade">
+          <h3>More Options</h3>
+          <!-- Change Payment Information -->
+          <button class="btn btn-block" data-toggle="collapse" data-target="#payment-information-collapse">
+            <span class="pull-left">
+              Change Payment Information
+            </span>
+            <span class="pull-right">
+              <span class="caret"></span>
+            </span>
+          </button>
+          <div id="payment-information-collapse" class="collapse">
+            <div class="well white-background">
+              <div class="row">
+                <div class="col-xs-8"><b>Your credit and debit cards</b></div>
+                <div class="col-xs-4"><b>expires</b></div>
+              </div>
+              <!-- Card Info -->
+              <a href="#">
+                <div class="row">
+                  <div class="col-xs-2"><img src="../img/layout/visa-15px.png" alt="Visa"></div>
+                  <div class="col-xs-6">Visa ending 6575</div>
+                  <div class="col-xs-4">05/2019</div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- Change Delivery Address -->
+          <button class="btn btn-block btn-top-margin" data-toggle="collapse" data-target="#delivery-address-collapse">
+            <span class="pull-left">
+              Change Delivery Address
+            </span>
+            <span class="pull-right">
+              <span class="caret"></span>
+            </span>
+          </button>
+          <div id="delivery-address-collapse" class="collapse">
+            <div class="well white-background">
+              <!-- Address Finder Form -->
+              <form class="form-horizontal">
+                <!-- Address Finder -->
+                <div class="form-group">
+                  <label class="control-label col-sm-2">Address Finder:</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" placeholder="Enter an address">
+                  </div>
+                </div>
+              </form>
+              <!-- Breaks -->
+              <hr>
+              <p class="text-center">OR</p>
+              <hr>
+              <!-- Delivery Address Form -->
+              <form class="form-horizontal">
+                <!-- Country -->
+                <div class="form-group">
+                  <label class="control-label col-sm-2">Country:</label>
+                  <div class="col-sm-10">
+                    <select class="form-control">
+                      <option>Choose an option</option>
+                      <option>New Zealand</option>
+                      <option>Australia</option>
+                    </select>
+                  </div>
+                </div>
+                <!-- Street -->
+                <div class="form-group">
+                  <label class="control-label col-sm-2">Street:</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
+                <!-- City -->
+                <div class="form-group">
+                  <label class="control-label col-sm-2">City:</label>
+                  <div class="col-sm-10">
+                    <select class="form-control">
+                      <option>Choose an option</option>
+                      <option>Auckland</option>
+                      <option>Wellington</option>
+                    </select>
+                  </div>
+                </div>
+                <!-- Suburb -->
+                <div class="form-group">
+                  <label class="control-label col-sm-2">Suburb:</label>
+                  <div class="col-sm-10">
+                    <select class="form-control">
+                      <option>Choose an option</option>
+                      <option>Albany</option>
+                      <option>Red Beach</option>
+                      <option>Silverdale</option>
+                    </select>
+                  </div>
+                </div>
+                <!-- Post Code -->
+                <div class="form-group">
+                  <label class="control-label col-sm-2">Post Code:</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- Change Email Settings -->
+          <button class="btn btn-block btn-top-margin" data-toggle="collapse" data-target="#email-settings-collapse">
+            <span class="pull-left">
+              Change Email Settings
+            </span>
+            <span class="pull-right">
+              <span class="caret"></span>
+            </span>
+          </button>
+          <div id="email-settings-collapse" class="collapse">
+            <div class="well white-background">
+              <!-- General Settings -->
+              <p><b>General Settings</b></p>
+              <p>1. Email is currently being sent to emerssonchewcs@gmail.com <a href="#">(Change)</a></p>
+              <p>2. In what format do you prefer to read your email?</p>
+              <form>
+                <div class="checkbox">
+                  <label><input type="checkbox">HTML (Text and img)</label>
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox">Plain-Text</label>
+                </div>
+              </form>
+              <!-- Promotional Emails -->
+              <p><b>Promotional Emails</b></p>
+              <p>Select all the trader's latest listings you would like to hear about</p>
+              <form class="row">
+                <div class="col-xs-3">
+                  <div class="checkbox">
+                    <label><input type="checkbox">BMW</label>
+                  </div>
+                </div>
+                <div class="col-xs-3">
+                  <div class="checkbox">
+                    <label><input type="checkbox">Honda</label>
+                  </div>
+                </div>
+                <div class="col-xs-3">
+                  <div class="checkbox">
+                    <label><input type="checkbox">Nissan</label>
+                  </div>
+                </div>
+                <div class="col-xs-3">
+                  <div class="checkbox">
+                    <label><input type="checkbox">Tesla</label>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- Blocked Traders -->
+          <button class="btn btn-block btn-top-margin" data-toggle="collapse" data-target="#blocked-traders-collapse">
+            <span class="pull-left">
+              Blocked Traders
+            </span>
+            <span class="pull-right">
+              <span class="caret"></span>
+            </span>
+          </button>
+          <div id="blocked-traders-collapse" class="collapse">
+            <div class="well white-background">
+              <form class="row">
+                <div class="col-xs-6">
+                  <div class="checkbox">
+                    <label><input type="checkbox">address@example.com</label>
+                  </div>
+                </div>
+                <div class="col-xs-6">
+                  <div class="checkbox">
+                    <label><input type="checkbox">address@example.com</label>
+                  </div>
+                </div>
+                <div class="col-xs-6">
+                  <div class="checkbox">
+                    <label><input type="checkbox">address@example.com</label>
+                  </div>
+                </div>
+                <div class="col-xs-6">
+                  <div class="checkbox">
+                    <label><input type="checkbox">address@example.com</label>
+                  </div>
+                </div>
+              </form>
+              <!-- Remove / Add Buttons -->
+              <form>
+                <div class="btn-group btn-group-justified btn-top-margin">
+                  <a class="btn btn-primary" href="#">Remove</a>
+                  <a class="btn btn-primary" href="#">Add</a>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- Submit Button -->
+          <button type="button" class="btn btn-primary btn-block btn-top-margin">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
